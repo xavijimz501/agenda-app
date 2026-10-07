@@ -23,3 +23,9 @@ git commit -m "Commit inicial: proyecto configurado con Vite y React Big Calenda
 2. Crear y subir el repositorio a GitHub con gh
 
 gh repo create agenda-app --public --source=. --push
+
+3. si hago cambios en el proyecto tengo que subir los cambios a github con:
+
+git add .
+git commit -m "mensaje descriptivo de los cambios"
+git push
