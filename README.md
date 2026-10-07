@@ -12,3 +12,14 @@ npm install
 # Instalar React Big Calendar y date-fns
 
 npm install react-big-calendar date-fns
+
+
+1. Inicializar Git y preparar los archivos
+
+git init
+git add .
+git commit -m "Commit inicial: proyecto configurado con Vite y React Big Calendar"
+
+2. Crear y subir el repositorio a GitHub con gh
+
+gh repo create agenda-app --public --source=. --push
